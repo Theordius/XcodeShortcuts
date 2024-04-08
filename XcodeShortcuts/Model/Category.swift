@@ -9,6 +9,6 @@ import Foundation
 
 struct Category: Identifiable {
     let id = UUID()
-    let categoryName: String
-    let shortcutModel: [Shortcut]
+    let name: String
+    let shortcut: [Shortcut]
 }

@@ -10,8 +10,8 @@ import Foundation
 extension Shortcut {
     static func shortcutData() -> [Category] {
         let product: Category = .init(
-            categoryName: "Product",
-            shortcutModel: [
+            name: "Product",
+            shortcut: [
                 .init(
                     modifiers: [.command],
                     char: "b",
@@ -38,8 +38,8 @@ extension Shortcut {
             ]
         )
         let scheme: Category = .init(
-            categoryName: "Scheme",
-            shortcutModel: [
+            name: "Scheme",
+            shortcut: [
                 .init(
                     modifiers: [.control],
                     char: "0",
@@ -53,8 +53,8 @@ extension Shortcut {
             ]
         )
         let hideOrShowPanel: Category = .init(
-            categoryName: "Hide or Show Panels",
-            shortcutModel: [
+            name: "Hide or Show Panels",
+            shortcut: [
                 .init(
                     modifiers: [.command],
                     char: "0",
@@ -84,8 +84,8 @@ extension Shortcut {
             ]
         )
         let navigation: Category = .init(
-            categoryName: "Navigation",
-            shortcutModel: [
+            name: "Navigation",
+            shortcut: [
                 .init(
                     modifiers: [.command],
                     char: "1",
@@ -134,8 +134,8 @@ extension Shortcut {
             ]
         )
         let inspector: Category = .init(
-            categoryName: "Inspector",
-            shortcutModel: [
+            name: "Inspector",
+            shortcut: [
                 .init(
                     modifiers: [
                         .option,
@@ -171,8 +171,8 @@ extension Shortcut {
             ]
         )
         let structure: Category = .init(
-            categoryName: "Structure",
-            shortcutModel: [
+            name: "Structure",
+            shortcut: [
                 .init(
                     modifiers: [.command],
                     char: "/",
@@ -207,8 +207,8 @@ extension Shortcut {
             ]
         )
         let editing: Category = .init(
-            categoryName: "Editing",
-            shortcutModel: [
+            name: "Editing",
+            shortcut: [
                 .init(
                     modifiers: [.command],
                     char: "C",
@@ -236,8 +236,8 @@ extension Shortcut {
             ]
         )
         let misccellaneus: Category = .init(
-            categoryName: "Miscellaneous",
-            shortcutModel: [
+            name: "Miscellaneous",
+            shortcut: [
                 .init(
                     modifiers: [
                         .command,
@@ -271,8 +271,8 @@ extension Shortcut {
             ]
         )
         let debuging: Category = .init(
-            categoryName: "Debugging",
-            shortcutModel: [
+            name: "Debugging",
+            shortcut: [
                 .init(
                     modifiers: [.command],
                     char: "\\",
@@ -290,8 +290,8 @@ extension Shortcut {
             ]
         )
         let fileMenu: Category = .init(
-            categoryName: "File menu commands",
-            shortcutModel: [
+            name: "File menu commands",
+            shortcut: [
                 .init(
                     modifiers: [.command],
                     char: "N",
@@ -308,8 +308,8 @@ extension Shortcut {
             ]
         )
         let sourceControl: Category = .init(
-            categoryName: "Source Control",
-            shortcutModel: [
+            name: "Source Control",
+            shortcut: [
                 .init(
                     modifiers: [.command],
                     char: "9",
