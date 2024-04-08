@@ -11,6 +11,8 @@
 		10AD11FC2BC3F80E006D56F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD11FB2BC3F80E006D56F3 /* ContentView.swift */; };
 		10AD11FE2BC3F810006D56F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AD11FD2BC3F810006D56F3 /* Assets.xcassets */; };
 		10AD12022BC3F810006D56F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AD12012BC3F810006D56F3 /* Preview Assets.xcassets */; };
+		10AD120D2BC3F91F006D56F3 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD120C2BC3F91F006D56F3 /* Shortcut.swift */; };
+		10AD12112BC40B3A006D56F3 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12102BC40B3A006D56F3 /* Modifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		10AD11FD2BC3F810006D56F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10AD11FF2BC3F810006D56F3 /* XcodeShortcuts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XcodeShortcuts.entitlements; sourceTree = "<group>"; };
 		10AD12012BC3F810006D56F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10AD120C2BC3F91F006D56F3 /* Shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
+		10AD12102BC40B3A006D56F3 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,11 @@
 		10AD11F82BC3F80E006D56F3 /* XcodeShortcuts */ = {
 			isa = PBXGroup;
 			children = (
-				10AD11F92BC3F80E006D56F3 /* XcodeShortcutsApp.swift */,
-				10AD11FB2BC3F80E006D56F3 /* ContentView.swift */,
+				10AD120B2BC3F8E3006D56F3 /* App */,
+				10AD12082BC3F85C006D56F3 /* Model */,
+				10AD120A2BC3F86B006D56F3 /* View */,
+				10AD12092BC3F863006D56F3 /* ViewModel */,
+				10AD120E2BC40B0C006D56F3 /* Common */,
 				10AD11FD2BC3F810006D56F3 /* Assets.xcassets */,
 				10AD11FF2BC3F810006D56F3 /* XcodeShortcuts.entitlements */,
 				10AD12002BC3F810006D56F3 /* Preview Content */,
@@ -67,6 +74,53 @@
 				10AD12012BC3F810006D56F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10AD12082BC3F85C006D56F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10AD120C2BC3F91F006D56F3 /* Shortcut.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10AD12092BC3F863006D56F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10AD120A2BC3F86B006D56F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10AD120B2BC3F8E3006D56F3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				10AD11F92BC3F80E006D56F3 /* XcodeShortcutsApp.swift */,
+				10AD11FB2BC3F80E006D56F3 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		10AD120E2BC40B0C006D56F3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				10AD120F2BC40B1A006D56F3 /* Enums */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		10AD120F2BC40B1A006D56F3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				10AD12102BC40B3A006D56F3 /* Modifier.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AD12112BC40B3A006D56F3 /* Modifier.swift in Sources */,
+				10AD120D2BC3F91F006D56F3 /* Shortcut.swift in Sources */,
 				10AD11FC2BC3F80E006D56F3 /* ContentView.swift in Sources */,
 				10AD11FA2BC3F80E006D56F3 /* XcodeShortcutsApp.swift in Sources */,
 			);
