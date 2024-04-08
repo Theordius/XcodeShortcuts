@@ -13,6 +13,9 @@
 		10AD12022BC3F810006D56F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AD12012BC3F810006D56F3 /* Preview Assets.xcassets */; };
 		10AD120D2BC3F91F006D56F3 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD120C2BC3F91F006D56F3 /* Shortcut.swift */; };
 		10AD12112BC40B3A006D56F3 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12102BC40B3A006D56F3 /* Modifier.swift */; };
+		10AD12132BC411B2006D56F3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12122BC411B2006D56F3 /* Category.swift */; };
+		10AD12172BC41238006D56F3 /* ShortcutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12162BC41238006D56F3 /* ShortcutViewModel.swift */; };
+		10AD121A2BC41674006D56F3 /* ShortcutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12192BC41674006D56F3 /* ShortcutData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		10AD12012BC3F810006D56F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10AD120C2BC3F91F006D56F3 /* Shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
 		10AD12102BC40B3A006D56F3 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		10AD12122BC411B2006D56F3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		10AD12162BC41238006D56F3 /* ShortcutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutViewModel.swift; sourceTree = "<group>"; };
+		10AD12192BC41674006D56F3 /* ShortcutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				10AD120B2BC3F8E3006D56F3 /* App */,
+				10AD12182BC41657006D56F3 /* Data */,
 				10AD12082BC3F85C006D56F3 /* Model */,
 				10AD120A2BC3F86B006D56F3 /* View */,
 				10AD12092BC3F863006D56F3 /* ViewModel */,
@@ -80,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				10AD120C2BC3F91F006D56F3 /* Shortcut.swift */,
+				10AD12122BC411B2006D56F3 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +95,7 @@
 		10AD12092BC3F863006D56F3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				10AD12162BC41238006D56F3 /* ShortcutViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -121,6 +130,14 @@
 				10AD12102BC40B3A006D56F3 /* Modifier.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		10AD12182BC41657006D56F3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				10AD12192BC41674006D56F3 /* ShortcutData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +211,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				10AD12112BC40B3A006D56F3 /* Modifier.swift in Sources */,
+				10AD12132BC411B2006D56F3 /* Category.swift in Sources */,
 				10AD120D2BC3F91F006D56F3 /* Shortcut.swift in Sources */,
+				10AD121A2BC41674006D56F3 /* ShortcutData.swift in Sources */,
 				10AD11FC2BC3F80E006D56F3 /* ContentView.swift in Sources */,
+				10AD12172BC41238006D56F3 /* ShortcutViewModel.swift in Sources */,
 				10AD11FA2BC3F80E006D56F3 /* XcodeShortcutsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
