@@ -25,7 +25,7 @@ struct ShortcutRow: View {
         VStack(alignment: .leading) {
             HStack {
                 if charFound {
-                    Text("X")
+                    Text("-->")
                         .font(font)
                 }
                 Text(shortcutModel.description)

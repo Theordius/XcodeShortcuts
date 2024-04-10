@@ -16,9 +16,11 @@
 		10AD12132BC411B2006D56F3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12122BC411B2006D56F3 /* Category.swift */; };
 		10AD12172BC41238006D56F3 /* ShortcutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12162BC41238006D56F3 /* ShortcutViewModel.swift */; };
 		10AD121A2BC41674006D56F3 /* ShortcutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12192BC41674006D56F3 /* ShortcutData.swift */; };
-		10AD121C2BC41AA6006D56F3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD121B2BC41AA6006D56F3 /* MainView.swift */; };
 		10AD12202BC41FFB006D56F3 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD121F2BC41FFB006D56F3 /* SectionView.swift */; };
 		10AD12222BC69B1B006D56F3 /* ShortcutRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12212BC69B1B006D56F3 /* ShortcutRow.swift */; };
+		10AD12242BC6A91B006D56F3 /* SymbolLegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12232BC6A91A006D56F3 /* SymbolLegendView.swift */; };
+		10AD12262BC6A960006D56F3 /* SymbolColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12252BC6A960006D56F3 /* SymbolColumnView.swift */; };
+		10AD12282BC6AA28006D56F3 /* SymbolRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12272BC6AA28006D56F3 /* SymbolRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +35,11 @@
 		10AD12122BC411B2006D56F3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		10AD12162BC41238006D56F3 /* ShortcutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutViewModel.swift; sourceTree = "<group>"; };
 		10AD12192BC41674006D56F3 /* ShortcutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutData.swift; sourceTree = "<group>"; };
-		10AD121B2BC41AA6006D56F3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		10AD121F2BC41FFB006D56F3 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		10AD12212BC69B1B006D56F3 /* ShortcutRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutRow.swift; sourceTree = "<group>"; };
+		10AD12232BC6A91A006D56F3 /* SymbolLegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolLegendView.swift; sourceTree = "<group>"; };
+		10AD12252BC6A960006D56F3 /* SymbolColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolColumnView.swift; sourceTree = "<group>"; };
+		10AD12272BC6AA28006D56F3 /* SymbolRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +155,7 @@
 		10AD121D2BC41FA3006D56F3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				10AD121B2BC41AA6006D56F3 /* MainView.swift */,
+				10AD12232BC6A91A006D56F3 /* SymbolLegendView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,6 +165,8 @@
 			children = (
 				10AD121F2BC41FFB006D56F3 /* SectionView.swift */,
 				10AD12212BC69B1B006D56F3 /* ShortcutRow.swift */,
+				10AD12252BC6A960006D56F3 /* SymbolColumnView.swift */,
+				10AD12272BC6AA28006D56F3 /* SymbolRowView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -236,12 +242,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				10AD12112BC40B3A006D56F3 /* Modifier.swift in Sources */,
-				10AD121C2BC41AA6006D56F3 /* MainView.swift in Sources */,
 				10AD12222BC69B1B006D56F3 /* ShortcutRow.swift in Sources */,
+				10AD12242BC6A91B006D56F3 /* SymbolLegendView.swift in Sources */,
+				10AD12282BC6AA28006D56F3 /* SymbolRowView.swift in Sources */,
 				10AD12202BC41FFB006D56F3 /* SectionView.swift in Sources */,
 				10AD12132BC411B2006D56F3 /* Category.swift in Sources */,
 				10AD120D2BC3F91F006D56F3 /* Shortcut.swift in Sources */,
 				10AD121A2BC41674006D56F3 /* ShortcutData.swift in Sources */,
+				10AD12262BC6A960006D56F3 /* SymbolColumnView.swift in Sources */,
 				10AD11FC2BC3F80E006D56F3 /* ContentView.swift in Sources */,
 				10AD12172BC41238006D56F3 /* ShortcutViewModel.swift in Sources */,
 				10AD11FA2BC3F80E006D56F3 /* XcodeShortcutsApp.swift in Sources */,

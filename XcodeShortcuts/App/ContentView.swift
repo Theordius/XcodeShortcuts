@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    //MARK: - PROPERTIES:
+    @State private var searchField = ""
+    var viewModel: ShortcutViewModel = ShortcutViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            Form {
+                List(viewModel.shortcutCategory) { category in
+                    SectionView(
+                        shortcutCategory: category.name,
+                        shortcutModel: category.shortcut,
+                        searchQuery: searchField
+                    )
+                }
+            }
+            .navigationTitle("Shortcuts")
+            .searchable(text: $searchField, prompt: "Search")
+
+            SymbolLegendView()
         }
-        .padding()
     }
 }
 
