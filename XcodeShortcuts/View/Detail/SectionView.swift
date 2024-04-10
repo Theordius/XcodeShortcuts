@@ -25,8 +25,9 @@ struct SectionView: View {
             if !filteredResults.isEmpty {
                 Section {
                     ForEach(filteredResults) { model in
-                        Text(
-                            "\(model.char) \(model.text)"
+                        ShortcutRow(
+                            shortcutModel: model,
+                            searchQuery: searchQuery
                         )
                     }
                 } header: {

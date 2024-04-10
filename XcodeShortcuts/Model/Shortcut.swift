@@ -14,6 +14,8 @@ struct Shortcut: Identifiable {
     let text: String
 
     var description: String {
-        "\(modifiers) \(char.capitalized)"
+        let result = modifiers.reduce("") { $0 + $1.rawValue }
+        return result + " \(char.capitalized)"
     }
+
 }

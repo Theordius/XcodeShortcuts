@@ -18,6 +18,7 @@
 		10AD121A2BC41674006D56F3 /* ShortcutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12192BC41674006D56F3 /* ShortcutData.swift */; };
 		10AD121C2BC41AA6006D56F3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD121B2BC41AA6006D56F3 /* MainView.swift */; };
 		10AD12202BC41FFB006D56F3 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD121F2BC41FFB006D56F3 /* SectionView.swift */; };
+		10AD12222BC69B1B006D56F3 /* ShortcutRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12212BC69B1B006D56F3 /* ShortcutRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		10AD12192BC41674006D56F3 /* ShortcutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutData.swift; sourceTree = "<group>"; };
 		10AD121B2BC41AA6006D56F3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		10AD121F2BC41FFB006D56F3 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		10AD12212BC69B1B006D56F3 /* ShortcutRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				10AD121F2BC41FFB006D56F3 /* SectionView.swift */,
+				10AD12212BC69B1B006D56F3 /* ShortcutRow.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				10AD12112BC40B3A006D56F3 /* Modifier.swift in Sources */,
 				10AD121C2BC41AA6006D56F3 /* MainView.swift in Sources */,
+				10AD12222BC69B1B006D56F3 /* ShortcutRow.swift in Sources */,
 				10AD12202BC41FFB006D56F3 /* SectionView.swift in Sources */,
 				10AD12132BC411B2006D56F3 /* Category.swift in Sources */,
 				10AD120D2BC3F91F006D56F3 /* Shortcut.swift in Sources */,
