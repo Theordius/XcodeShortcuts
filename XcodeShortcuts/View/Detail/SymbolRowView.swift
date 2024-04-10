@@ -10,7 +10,7 @@ import SwiftUI
 struct SymbolRowView: View {
     //MARK: - PROPERTIES:
     let modifier: Modifier
-    let font: Font = .body
+    let font: Font = Theme.modifierFont
 
     var body: some View {
         Text("\(modifier.rawValue) = \(modifier.description)")

@@ -99,12 +99,12 @@ extension Shortcut {
                 .init(
                     modifiers: [.command],
                     char: "3",
-                    text: "boomarks"
+                    text: "Boomarks"
                 ),
                 .init(
                     modifiers: [.command],
                     char: "4",
-                    text: "find"
+                    text: "Find"
                 ),
                 .init(
                     modifiers: [.command],

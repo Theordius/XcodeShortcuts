@@ -21,6 +21,7 @@
 		10AD12242BC6A91B006D56F3 /* SymbolLegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12232BC6A91A006D56F3 /* SymbolLegendView.swift */; };
 		10AD12262BC6A960006D56F3 /* SymbolColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12252BC6A960006D56F3 /* SymbolColumnView.swift */; };
 		10AD12282BC6AA28006D56F3 /* SymbolRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD12272BC6AA28006D56F3 /* SymbolRowView.swift */; };
+		10AD122B2BC6CAFB006D56F3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD122A2BC6CAFB006D56F3 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		10AD12232BC6A91A006D56F3 /* SymbolLegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolLegendView.swift; sourceTree = "<group>"; };
 		10AD12252BC6A960006D56F3 /* SymbolColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolColumnView.swift; sourceTree = "<group>"; };
 		10AD12272BC6AA28006D56F3 /* SymbolRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRowView.swift; sourceTree = "<group>"; };
+		10AD122A2BC6CAFB006D56F3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				10AD120F2BC40B1A006D56F3 /* Enums */,
+				10AD12292BC6CADB006D56F3 /* Settings */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -169,6 +172,14 @@
 				10AD12272BC6AA28006D56F3 /* SymbolRowView.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		10AD12292BC6CADB006D56F3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				10AD122A2BC6CAFB006D56F3 /* Theme.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +256,7 @@
 				10AD12222BC69B1B006D56F3 /* ShortcutRow.swift in Sources */,
 				10AD12242BC6A91B006D56F3 /* SymbolLegendView.swift in Sources */,
 				10AD12282BC6AA28006D56F3 /* SymbolRowView.swift in Sources */,
+				10AD122B2BC6CAFB006D56F3 /* Theme.swift in Sources */,
 				10AD12202BC41FFB006D56F3 /* SectionView.swift in Sources */,
 				10AD12132BC411B2006D56F3 /* Category.swift in Sources */,
 				10AD120D2BC3F91F006D56F3 /* Shortcut.swift in Sources */,

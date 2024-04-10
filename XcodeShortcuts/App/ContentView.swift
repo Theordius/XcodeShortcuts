@@ -11,6 +11,7 @@ struct ContentView: View {
     //MARK: - PROPERTIES:
     @State private var searchField = ""
     var viewModel: ShortcutViewModel = ShortcutViewModel()
+    let listStyle = Theme.listStyle
 
     var body: some View {
         NavigationStack {
@@ -22,12 +23,14 @@ struct ContentView: View {
                         searchQuery: searchField
                     )
                 }
+                .listStyle(listStyle)
             }
             .navigationTitle("Shortcuts")
             .searchable(text: $searchField, prompt: "Search")
 
             SymbolLegendView()
-        }
+        } //: Navigation Stack
+        .frame(minWidth: Theme.frameWidth, minHeight: Theme.frameWidth)
     }
 }
 

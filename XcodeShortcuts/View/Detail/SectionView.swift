@@ -13,9 +13,9 @@ struct SectionView: View {
     let shortcutModel: [Shortcut]
     let searchQuery: String
     
-    let sectionHeaderFont: Font = .body
-    let sectionFontWeight: Font.Weight = .semibold
-    let sectionHeaderColor: Color = .red
+    let sectionHeaderFont: Font = Theme.sectionHeaderFont
+    let sectionFontWeight: Font.Weight = Theme.fontWeight
+    let sectionHeaderColor: Color = Theme.sectionHeaderColor
 
     var filteredResults: [Shortcut] {
         shortcutModel
@@ -50,4 +50,5 @@ struct SectionView: View {
         )],
         searchQuery: ""
     )
+    .previewLayout(.sizeThatFits)
 }
